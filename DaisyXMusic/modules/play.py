@@ -921,7 +921,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "RiZoeLXMusic"
     usar = user
     wew = usar.id
     try:
@@ -1059,7 +1059,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "RiZoeLXMusic"
     usar = user
     wew = usar.id
     try:
@@ -1096,7 +1096,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @DaisyXmusic to your Group and try again</b>",
+                        "\n\nOr manually add @RiZoeL_VC to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
